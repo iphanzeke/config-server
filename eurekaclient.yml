@@ -1,0 +1,10 @@
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true 
+    serviceUrl:
+      defaultZone: http://192.168.0.106:8761/eureka
+    instance:
+      hostname: localhost
+      metadataMap: 
+        instanceId: eurekaclient:9001
