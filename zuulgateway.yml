@@ -4,7 +4,7 @@ zuul:
     max-semaphores: 500
   routes:  
      EurekaClient : 
-      path : /test2/**
+      path : /test/**
       serviceId: EurekaClient
       sensitiveHeaders:
       strip-prefix: true
